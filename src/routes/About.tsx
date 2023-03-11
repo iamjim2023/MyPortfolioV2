@@ -10,7 +10,10 @@ const About = () => {
     <div>
       <div>
         <Navbar />
-        <HeroImg2 />
+        <HeroImg2
+          heading="ABOUT."
+          text="Im a Front-End Developer trainee & Network Maintenance Staff trainee at Dowinn Group"
+        />
         <AboutContent />
         <Footer />
       </div>

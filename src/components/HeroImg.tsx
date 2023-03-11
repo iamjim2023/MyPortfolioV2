@@ -23,6 +23,6 @@ const HeroImg = () => {
       </div>
     </div>
   );
-};
+}
 
 export default HeroImg;
