@@ -3,7 +3,28 @@ import "./WorkCardStyles3.css";
 import React from "react";
 import { NavLink, To } from "react-router-dom";
 
-const WorkCard3 = (props: { imgsrc3: string | undefined; title3: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; text3: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; view3: To; }) => {
+const WorkCard3 = (props: {
+  imgsrc3: string | undefined;
+  title3:
+    | string
+    | number
+    | boolean
+    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  text3:
+    | string
+    | number
+    | boolean
+    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  view3: To;
+}) => {
   return (
     <div className="project-card3">
       <img src={props.imgsrc3} alt="" />

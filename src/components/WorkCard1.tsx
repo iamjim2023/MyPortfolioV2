@@ -1,9 +1,23 @@
 import "./WorkCardStyles1.css";
+import PropTypes from "prop-types";
 
 import React from "react";
 import { NavLink, To } from "react-router-dom";
 
-const WorkCard1 = (props: { imgsrc1: string | undefined; title1: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; text1: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; view1: To; }) => {
+const WorkCard1 = (props: {
+  imgsrc1: string | undefined;
+  title1: string | number | boolean | null | undefined;
+  text1:
+    | string
+    | number
+    | boolean
+    | React.ReactFragment
+    | React.ReactPortal
+    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
+    | null
+    | undefined;
+  view1: To;
+}) => {
   return (
     <div className="project-card1">
       <img src={props.imgsrc1} alt="" />
