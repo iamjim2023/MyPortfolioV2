@@ -1,7 +1,12 @@
 import "./HeroImg2Styles.css";
 import React, { Component } from "react";
 
-class HeroImg2 extends Component {
+interface HeroImg2Props {
+  heading: string;
+  text: string;
+}
+
+class HeroImg2 extends Component<HeroImg2Props> {
   render() {
     return (
       <div className="hero-img">
